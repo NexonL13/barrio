@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
+import { CgProfile } from "react-icons/cg";
 
 const Navbar = () => {
   return (
@@ -18,6 +19,7 @@ const Navbar = () => {
         <li className="navbar_list nav-signin">
           <NavLink to="/signin">Sign-in</NavLink>
         </li>
+        <CgProfile className="nav-profile" />
       </ul>
     </nav>
   );
