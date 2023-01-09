@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from "../assets/logo.png"
-import sample from "../assets/sample2.jpg"
+import logo from "../images/logo.png"
+import sample from "../images/sample2.jpg"
 import { Link } from "react-router-dom"
 
 const Signup = () => {

@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
-import { BsCart2 } from "react-icons/bs";
 
 const Navbar = () => {
   return (
@@ -19,9 +18,6 @@ const Navbar = () => {
         <li className="navbar_list nav-signin">
           <NavLink to="/signin">Sign-in</NavLink>
         </li>
-        <Link to="/overview">
-          <BsCart2 className="nav-cart" />
-        </Link>
       </ul>
     </nav>
   );
