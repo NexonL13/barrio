@@ -57,6 +57,7 @@ const Signin = () => {
 
           <div className="auth_end">
             <button className="btn_submit">Login</button>
+            <button class="loginBtn loginBtn--google">Login with Google</button>
             <p className="auth_signup">
               Don't have an account?{" "}
               <Link to="/signup" className="signup">
@@ -65,9 +66,9 @@ const Signin = () => {
             </p>
           </div>
         </form>
-      </div>
-      <div className="auth_side-img">
-        <img src={sample} className="side_img" />
+        <div className="auth_side-img">
+          <img src={sample} className="side_img" />
+        </div>
       </div>
     </div>
   );

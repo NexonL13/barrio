@@ -15,7 +15,7 @@ const Home = () => {
           maiores repellendus saepe mollitia natus minima.
         </p>
         <div className="landing_button">
-          <button className="landing_btn">Browse Now</button>
+          <Link to="/equipments" className="landing_btn">Browse Now</Link>
           <Link to="/about" className="landing_about">
             or learn more
           </Link>
