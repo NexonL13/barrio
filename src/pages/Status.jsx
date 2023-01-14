@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../images/logo.png";
 import { Link } from "react-router-dom";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
+import { AiOutlineRight } from "react-icons/ai";
 
 const Status = () => {
   return (
@@ -110,6 +111,15 @@ const Status = () => {
               <MdOutlineArrowForwardIos className="borrowed-arrowf" />
             </div>
           </Link>
+        </div>
+
+        <div className="inventory_pagination">
+          <button className="number-box">1</button>
+          <button className="number-box">2</button>
+          <button className="number-box">3</button>
+          <button className="number-box">
+            <AiOutlineRight />
+          </button>
         </div>
       </div>
     </div>

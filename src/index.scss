@@ -793,6 +793,9 @@ body {
   border: 0.0313rem solid var(--clr-grey-300);
   height: 2.3125rem;
   width: 2.3125rem;
+  font-size: 0.8125rem;
+  text-align: center;
+  color: var(--clr-grey-300);
 }
 
 .item_btn {
@@ -1034,8 +1037,11 @@ body {
 
 //Status 
 .status {
-  height: 100vh;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3.125rem;
 }
 
 .status_header {
@@ -1052,12 +1058,15 @@ body {
   font-size: 20px;
   font-weight: bold;
   color: var(--clr-grey-500);
+  height: 100%;
 }
 
 .status-container {
-  height: 100vh;
-  width: 100%;
-  padding-inline: 80px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100%;
+  padding-inline: 5rem;
 }
 
 .status_date {
@@ -1207,17 +1216,17 @@ body {
 .site-footer {
   background-color: var(--clr-grey);
   padding: 45px 0 20px;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
   color: #737373;
 }
 
 .site-footer h6 {
   color: var(--clr-grey-500);
-  font-size: 16px;
+  font-size: 1rem;
   text-transform: uppercase;
-  margin-top: 5px;
-  letter-spacing: 2px;
+  margin-top: 0.3125rem;
+  letter-spacing: 0.125rem;
 }
 .site-footer a {
   color: var(--clr-secondary);
@@ -1260,12 +1269,12 @@ body {
 .copyright-text {
   margin: 0;
 }
-@media (max-width: 991px) {
+@media (max-width: 61.9375rem) {
   .site-footer [class^="col-"] {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 47.9375rem) {
   .site-footer {
     padding-bottom: 0;
   }
@@ -1274,7 +1283,7 @@ body {
     text-align: center;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 47.9375rem) {
   .social-icons li.title {
     display: block;
     margin-right: 0;

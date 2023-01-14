@@ -35,7 +35,7 @@ const Overview = () => {
             Available Stocks: 99
           </p>
           <div className="item_btn-wrapper">
-            <input type="text" className="item_quantity" />
+            <input type="text" placeholder="0" className="item_quantity" />
             <Link to="/checkout" className="item_btn">
               Borrow Now
             </Link>
