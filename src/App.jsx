@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Signin from "./pages/Signin";
@@ -9,11 +9,15 @@ import Overview from "./pages/Overview";
 import Checkout from "./pages/Checkout";
 import Success from "./pages/Success";
 import Status from "./pages/Status";
+import Dashboard from "./pages/Dashboard";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <BrowserRouter basename="/barrio/">
+      <Routes>
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
       <Navbar />
       <main>
         <Routes>
