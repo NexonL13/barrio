@@ -15,7 +15,7 @@ const Success = () => {
           Your borrowed equipments was reserved successfully.
         </p>
         <p className="success_desc2">
-          For more details, check Borrowed Status tab.
+          For more details, check Borrowed Status under Profile tab.
         </p>
         <div className="tab_btn">
           <Link to="/status" className="btn_submit tab_status">

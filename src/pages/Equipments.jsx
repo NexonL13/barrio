@@ -11,16 +11,16 @@ const Equipments = () => {
           <p className="items_type">Equipment Type</p>
         </div>
         <div className="sub-type">
-          <Link to="/" className="item_filter">
+          <Link to="/equipments" className="item_filter">
             Category 1 <small className="item_number">(No.)</small>
           </Link>
-          <Link to="/" className="item_filter">
+          <Link to="/equipments" className="item_filter">
             Category 2 <small className="item_number">(No.)</small>
           </Link>
-          <Link to="/" className="item_filter">
+          <Link to="/equipments" className="item_filter">
             Category 3 <small className="item_number">(No.)</small>
           </Link>
-          <Link to="/" className="item_filter">
+          <Link to="/equipments" className="item_filter">
             Category 4 <small className="item_number">(No.)</small>
           </Link>
         </div>

@@ -64,8 +64,9 @@ const Checkout = () => {
         </div>
         <div className="input_check">
           <input className="input_control_check" name="terms" type="checkbox" />
-          <label className="input_label_check" htmlFor="terms">
-            <a href="#" className="terms-and-conditions checkout_small">
+          <label className="input_label_check checkout_small" htmlFor="terms">
+            <span> I agree to {" "}</span>
+            <a href="#" className="terms-and-conditions">
               Terms and Conditions of Use
             </a>
           </label>
