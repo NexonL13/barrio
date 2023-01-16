@@ -2,6 +2,14 @@ import React from "react";
 import logo from "../images/logo.png";
 import { Link } from "react-router-dom";
 import { AiOutlineRight } from "react-icons/ai";
+import chair from "../images/chair.png"
+import crutches from "../images/crutches.png"
+import extinguisher from "../images/extinguisher.png"
+import incline from "../images/incline.png"
+import ladder from "../images/ladder.png"
+import tent from "../images/tent.png"
+import wheelchair from "../images/wheelchair.png"
+
 
 const Equipments = () => {
   return (
@@ -45,12 +53,27 @@ const Equipments = () => {
           <Link to="/overview">
             <div className="inventory_item">
               <div className="img-container">
-                <div className="item_state">
-                  <p className="state_lbl">OUT OF STOCK</p>
-                </div>
-                <img src={logo} className="item_img" />
+                <img src={chair} className="item_img" />
               </div>
-              <p className="item_lbl">Item's Name</p>
+              <p className="item_lbl">Monoblock Chair</p>
+            </div>
+          </Link>
+
+          <Link to="/overview">
+            <div className="inventory_item">
+              <div className="img-container">
+                <img src={crutches} className="item_img" />
+              </div>
+              <p className="item_lbl">Crutches</p>
+            </div>
+          </Link>
+
+          <Link to="/overview">
+            <div className="inventory_item">
+              <div className="img-container">
+                <img src={extinguisher} className="item_img" />
+              </div>
+              <p className="item_lbl">Extinguisher</p>
             </div>
           </Link>
 
@@ -60,9 +83,9 @@ const Equipments = () => {
                 <div className="item_state">
                   <p className="state_lbl">OUT OF STOCK</p>
                 </div>
-                <img src={logo} className="item_img" />
+                <img src={incline} className="item_img" />
               </div>
-              <p className="item_lbl">Item's Name</p>
+              <p className="item_lbl">Stretcher</p>
             </div>
           </Link>
 
@@ -72,33 +95,9 @@ const Equipments = () => {
                 <div className="item_state">
                   <p className="state_lbl">OUT OF STOCK</p>
                 </div>
-                <img src={logo} className="item_img" />
+                <img src={ladder} className="item_img" />
               </div>
-              <p className="item_lbl">Item's Name</p>
-            </div>
-          </Link>
-
-          <Link to="/overview">
-            <div className="inventory_item">
-              <div className="img-container">
-                <div className="item_state">
-                  <p className="state_lbl">OUT OF STOCK</p>
-                </div>
-                <img src={logo} className="item_img" />
-              </div>
-              <p className="item_lbl">Item's Name</p>
-            </div>
-          </Link>
-
-          <Link to="/overview">
-            <div className="inventory_item">
-              <div className="img-container">
-                <div className="item_state">
-                  <p className="state_lbl">OUT OF STOCK</p>
-                </div>
-                <img src={logo} className="item_img" />
-              </div>
-              <p className="item_lbl">Item's Name</p>
+              <p className="item_lbl">Ladder</p>
             </div>
           </Link>
         </div>

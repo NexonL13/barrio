@@ -4,6 +4,7 @@ import BsAccordion from "../components/BsAccordion";
 import BsCarousel from "../components/BsCarousel";
 import sample_item from "../images/logo.png";
 import { MdOutlineInventory2, MdDateRange } from "react-icons/md";
+import chair from "../images/chair.png"
 
 const Overview = () => {
   return (
@@ -18,10 +19,10 @@ const Overview = () => {
       </div>
       <div className="overview_container">
         <div className="overview_item-img">
-          <img src={sample_item} className="overview_img" />
+          <img src={chair} className="overview_img" />
         </div>
         <div className="overview_desc">
-          <h1 className="item_title">Item's Name</h1>
+          <h1 className="item_title">Monoblock Chair</h1>
           <p className="item_due">
             <span>
               <MdDateRange className="item-range" />
@@ -54,9 +55,7 @@ const Overview = () => {
       <div className="other">
         <h1 className="other_title">Other Equipments</h1>
       </div>
-      <div className="other-items">
-        <BsCarousel />
-      </div>
+      <BsCarousel />    
     </div>
   );
 };

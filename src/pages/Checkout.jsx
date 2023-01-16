@@ -1,6 +1,8 @@
 import React from "react";
 import sample from "../images/logo.png";
 import { Link } from "react-router-dom"
+import chair from "../images/chair.png"
+import tent from "../images/tent.png"
 
 const Checkout = () => {
   return (
@@ -78,10 +80,10 @@ const Checkout = () => {
 
           <div className="item-box">
             <div className="checkout_item-img">
-              <img src={sample} className="checkout_img" />
+              <img src={chair} className="checkout_img" />
             </div>
             <div className="checkout-wheel">
-              <p className="checkout_item-name">Item's Name</p>
+              <p className="checkout_item-name">Monoblock Chair</p>
               <p className="checkout_avail-stocks">Available Stocks: 99</p>
               <div className="checkout_btn">
                 <button>-</button>
@@ -93,10 +95,10 @@ const Checkout = () => {
 
           <div className="item-box">
             <div className="checkout_item-img">
-              <img src={sample} className="checkout_img" />
+              <img src={tent} className="checkout_img" />
             </div>
             <div className="checkout-wheel">
-              <p className="checkout_item-name">Item's Name</p>
+              <p className="checkout_item-name">Retractable Tent</p>
               <p className="checkout_avail-stocks">Available Stocks: 99</p>
               <div className="checkout_btn">
                 <button>-</button>
