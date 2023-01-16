@@ -15,9 +15,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <BrowserRouter basename="/barrio/">
-      <Routes>
-        <Route path="/dashboard" element={<Dashboard />} />
-      </Routes>
+      {/* <Router>
+      <Route index element={<Dashboard />} />
+    </Router> */}
+
       <Navbar />
       <main>
         <Routes>

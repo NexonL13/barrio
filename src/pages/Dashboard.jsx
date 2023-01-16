@@ -55,9 +55,8 @@ const Dashboard = () => {
       </div>
       <main className="dashboard_main">
         <Routes>
-            
-            <Route path="/admin-equipments" element={<Modify />} />
-            <Route path="/admin-schedule" element={<Reports />} />
+          <Route path="/admin-equipments" element={<Modify />} />
+          <Route path="/admin-schedule" element={<Reports />} />
         </Routes>
       </main>
     </div>
