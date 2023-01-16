@@ -9,9 +9,9 @@ const Checkout = () => {
     <div className="checkout">
       <div className="checkout_form">
         <header className="checkout_title">
-          <h1>Checkout</h1>
+          <h1>Reservation</h1>
         </header>
-        <p>Checkout Information</p>
+        <p>Reservation Information</p>
         <div className="input_field">
           <label className="input_label" htmlFor="email">
             Email

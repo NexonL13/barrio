@@ -25,13 +25,13 @@ const Overview = () => {
           <h1 className="item_title">Monoblock Chair</h1>
           <p className="item_due">
             <span>
-              <MdDateRange className="item-range" />
+              <MdDateRange className="item-range me-2" />
             </span>
             Due Date: 1 - 3 days
           </p>
           <p className="item_stocks">
             <span>
-              <MdOutlineInventory2 className="item-inv" />
+              <MdOutlineInventory2 className="item-inv me-2" />
             </span>
             Available Stocks: 99
           </p>
