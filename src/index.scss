@@ -151,7 +151,7 @@ body {
   align-items: center;
   min-height: 4.5rem;
   font-weight: bold;
-  padding-inline: 1.25rem;
+  padding-inline: 30px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   margin-bottom: 0.15rem;
@@ -714,7 +714,7 @@ body {
 .overview_container {
   display: flex;
   justify-content: center;
-  height: 100vh;
+  max-height: 100vh;
   gap: 1.25rem;
   padding-inline: 1.25rem;
 }
@@ -722,7 +722,7 @@ body {
 .overview_item-img {
   display: flex;
   justify-content: center;
-  height: 100vh;
+  max-height: 100vh;
   width: 54.938rem;
 }
 
@@ -734,7 +734,6 @@ body {
 .overview_desc {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   width: 25.563rem;
 }
 
