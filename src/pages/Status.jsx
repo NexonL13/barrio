@@ -3,6 +3,10 @@ import logo from "../images/logo.png";
 import { Link } from "react-router-dom";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 import { AiOutlineRight } from "react-icons/ai";
+import chair from "../images/chair.png";
+import crutches from "../images/crutches.png";
+import ladder from "../images/ladder.png";
+import tent from "../images/tent.png";
 
 const Status = () => {
   return (
@@ -23,11 +27,11 @@ const Status = () => {
 
         <div className="borrowed_item">
           <div className="borrowed_img-wrapper">
-            <img src={logo} className="borrowed_img" />
+            <img src={chair} className="borrowed_img" />
           </div>
           <div className="borrowed_wrapper">
             <div className="borrowed_info">
-              <h1 className="borrowed_lbl">Item's Name</h1>
+              <h1 className="borrowed_lbl">Monoblock Chair</h1>
               <p className="borrowed_range">
                 Return Date: January 17, 2023 (3 days until now)
               </p>
@@ -46,11 +50,11 @@ const Status = () => {
 
         <div className="borrowed_item">
           <div className="borrowed_img-wrapper">
-            <img src={logo} className="borrowed_img" />
+            <img src={crutches} className="borrowed_img" />
           </div>
           <div className="borrowed_wrapper">
             <div className="borrowed_info">
-              <h1 className="borrowed_lbl">Item's Name</h1>
+              <h1 className="borrowed_lbl">Crutches</h1>
               <p className="borrowed_range">
                 Return Date: January 17, 2023 (3 days until now)
               </p>
@@ -69,11 +73,11 @@ const Status = () => {
 
         <div className="borrowed_item">
           <div className="borrowed_img-wrapper">
-            <img src={logo} className="borrowed_img" />
+            <img src={ladder} className="borrowed_img" />
           </div>
           <div className="borrowed_wrapper">
             <div className="borrowed_info">
-              <h1 className="borrowed_lbl">Item's Name</h1>
+              <h1 className="borrowed_lbl">Ladder</h1>
               <p className="borrowed_range">
                 Return Date: January 17, 2023 (3 days until now)
               </p>
@@ -92,11 +96,11 @@ const Status = () => {
 
         <div className="borrowed_item">
           <div className="borrowed_img-wrapper">
-            <img src={logo} className="borrowed_img" />
+            <img src={tent} className="borrowed_img" />
           </div>
           <div className="borrowed_wrapper">
             <div className="borrowed_info">
-              <h1 className="borrowed_lbl">Item's Name</h1>
+              <h1 className="borrowed_lbl">Retractable Tent</h1>
               <p className="borrowed_range">
                 Return Date: January 17, 2023 (3 days until now)
               </p>
